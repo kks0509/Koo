@@ -43,14 +43,40 @@ ul {
 .navbar ul {
   display: flex;
   flex-direction: row;
+}
+
+.navbar ul li {
   margin-left: 40px;
 }
 
-.navber .logo {
+.navbar .logo {
   font-size: x-large;
   font-weight: bold;
 }
 
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
 .navbar a:hover {
-  border-bottom: 2px rgb(white) solid;
+  border-bottom: 2px #fff dashed;
+  color: #aaa;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 5px 10px;
+  font-size: large;
+  font-weight: bold;
+  background-color: lightgrey;
+  border-radius: 10px;
+  border-width: 1px;
+}
+
+button:hover {
+  color: red;
+  background-color: yellow;
 }
